@@ -1,24 +1,5 @@
-List of apps to identify for removal:
-ClipChamp
-Disney
-Spotify
-WhatsApp
-Prime Video
-TikTok
-Instagram
-Messanger
-
 List of app to keep:
-AppUp.IntelGraphicsExperience
-AppUp.IntelManagementandSecurityStatus
-AppUp.IntelOptaneMemoryandStorageManagement
-AppUp.ThunderboltControlCenter
-DellInc.DellCommandUpdate
-DellInc.DellDigitalDelivery
-DellInc.DellOptimizer
-DellInc.DellPowerManager
-DellInc.DellSupportAssistforPCs
-DellInc.PartnerPromo
+
 Microsoft.MicrosoftOfficeHub
 Microsoft.Xbox.TCUI
 Microsoft.XboxApp
@@ -28,6 +9,16 @@ Microsoft.XboxIdentityProvider
 Microsoft.XboxSpeechToTextOverlay
 
 List of apps to be removed (must have # in front):
+#AppUp.IntelGraphicsExperience
+#AppUp.IntelManagementandSecurityStatus
+#AppUp.IntelOptaneMemoryandStorageManagement
+#AppUp.ThunderboltControlCenter
+#DellInc.DellCommandUpdate
+#DellInc.DellDigitalDelivery
+#DellInc.DellOptimizer
+#DellInc.DellPowerManager
+#DellInc.DellSupportAssistforPCs
+#DellInc.PartnerPromo
 #Microsoft.BingNews
 #Microsoft.BingWeather
 #Microsoft.GamingApp
