@@ -1,4 +1,4 @@
-## Reviewed by MREID 20241022
+## Reviewed by MREID 20241023
 
 winget install Adobe.Acrobat.Reader.64-bit --exact --silent --accept-package-agreements --accept-source-agreements --disable-interactivity --ignore-warnings
 winget install Brave.Brave --exact --silent --accept-package-agreements --accept-source-agreements --disable-interactivity --ignore-warnings
@@ -26,11 +26,13 @@ zerotier-cli join af78bf9436327e81
 ## Settings Copy TO OneDrive Script - Must run 'Settings Copy TO OneDrive Script' FIRST
 ROBOCOPY "$Env:onedrive\Software Settings\Notepad++" "$Env:appdata\Notepad++" /S /DCOPY:DAT /COPY:DAT /R:0 /W:0
 ROBOCOPY "$Env:onedrive\Software Settings\FastStone" "$Env:appdata\FastStone" /S /DCOPY:DAT /COPY:DAT /R:0 /W:0
+ROBOCOPY "$Env:onedrive\Software Settings\Remote Desktop Connection Manager" "$Env:localappdata\Microsoft\Remote Desktop Connection Manager" /S /DCOPY:DAT /COPY:DAT /R:0 /W:0
 
 ## Settings Copy TO OneDrive Script
 ## ROBOCOPY "$Env:appdata\Notepad++" "$Env:onedrive\Software Settings\Notepad++" /S /DCOPY:DAT /COPY:DAT /R:0 /W:0
 ## ROBOCOPY "$Env:appdata\FastStone" "$Env:onedrive\Software Settings\FastStone" /S /DCOPY:DAT /COPY:DAT /R:0 /W:0
+## ROBOCOPY "$Env:localappdata\Microsoft\Remote Desktop Connection Manager" "$Env:onedrive\Software Settings\Remote Desktop Connection Manager" /S /DCOPY:DAT /COPY:DAT /R:0 /W:0
 
 ## NOTES
 ## Remote Desktop Manager Executable Location: %localappdata%\microsoft\winget\packages
-## Remote Desktop Manager File Locatoin: %onedrive%\RDCMan
+## Remote Desktop Manager File Preferred Locatoin: %onedrive%\Software Settings\Remote Desktop Connection Manager
