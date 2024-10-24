@@ -15,7 +15,6 @@ winget install Notepad++.Notepad++ --exact --silent --accept-package-agreements 
 winget install PuTTY.PuTTY --exact --silent --accept-package-agreements --accept-source-agreements --disable-interactivity --ignore-warnings
 winget install Splashtop.SplashtopBusiness --exact --silent --accept-package-agreements --accept-source-agreements --disable-interactivity --ignore-warnings
 winget install ZeroTier.ZeroTierOne --exact --silent --accept-package-agreements --accept-source-agreements --disable-interactivity --ignore-warnings
-winget install flux.flux --exact --silent --accept-package-agreements --accept-source-agreements --disable-interactivity --ignore-warnings
 
 ## Alias
 New-Alias edge "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
