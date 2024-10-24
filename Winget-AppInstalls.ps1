@@ -27,11 +27,13 @@ zerotier-cli join af78bf9436327e81
 ROBOCOPY "$Env:onedrive\Software Settings\Notepad++" "$Env:appdata\Notepad++" /S /DCOPY:DAT /COPY:DAT /R:0 /W:0
 ROBOCOPY "$Env:onedrive\Software Settings\FastStone" "$Env:appdata\FastStone" /S /DCOPY:DAT /COPY:DAT /R:0 /W:0
 ROBOCOPY "$Env:onedrive\Software Settings\Remote Desktop Connection Manager" "$Env:localappdata\Microsoft\Remote Desktop Connection Manager" /S /DCOPY:DAT /COPY:DAT /R:0 /W:0
+reg import "$Env:onedrive\Software Settings\putty\putty.reg"
 
 ## Settings Copy TO OneDrive Script
 ## ROBOCOPY "$Env:appdata\Notepad++" "$Env:onedrive\Software Settings\Notepad++" /S /DCOPY:DAT /COPY:DAT /R:0 /W:0
 ## ROBOCOPY "$Env:appdata\FastStone" "$Env:onedrive\Software Settings\FastStone" /S /DCOPY:DAT /COPY:DAT /R:0 /W:0
 ## ROBOCOPY "$Env:localappdata\Microsoft\Remote Desktop Connection Manager" "$Env:onedrive\Software Settings\Remote Desktop Connection Manager" /S /DCOPY:DAT /COPY:DAT /R:0 /W:0
+## if (-not (Test-Path -Path "$Env:onedrive\Software Settings\putty")) { New-Item -Path "$Env:onedrive\Software Settings\putty" -ItemType Directory } ; reg export "HKCU\Software\SimonTatham" "$Env:onedrive\Software Settings\putty\putty.reg" /y
 
 ## NOTES
 ## Remote Desktop Manager Executable Location: %localappdata%\microsoft\winget\packages
