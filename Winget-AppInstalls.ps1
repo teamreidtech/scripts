@@ -20,10 +20,6 @@ winget install ZeroTier.ZeroTierOne --exact --silent --accept-package-agreements
 New-Alias edge "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
 New-Alias edit "C:\Program Files\Notepad++\notepad++.exe"
 
-## ZeroTier Join TR-RD
-## MARK-3660 fe80::79f4:97da:17cd:6593%18
-zerotier-cli join af78bf9436327e81
-
 ## Settings Copy TO OneDrive Script - Must run 'Settings Copy TO OneDrive Script' FIRST
 ROBOCOPY "$Env:onedrive\Software Settings\Notepad++" "$Env:appdata\Notepad++" /S /DCOPY:DAT /COPY:DAT /R:0 /W:0
 ROBOCOPY "$Env:onedrive\Software Settings\FastStone" "$Env:appdata\FastStone" /S /DCOPY:DAT /COPY:DAT /R:0 /W:0
