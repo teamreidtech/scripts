@@ -5,6 +5,7 @@ winget install Brave.Brave --exact --silent --accept-package-agreements --accept
 winget install Dell.CommandUpdate.Universal --exact --silent --accept-package-agreements --accept-source-agreements --disable-interactivity --ignore-warnings
 winget install FastStone.Capture --exact --silent --accept-package-agreements --accept-source-agreements --disable-interactivity --ignore-warnings
 winget install FastStone.Viewer --exact --silent --accept-package-agreements --accept-source-agreements --disable-interactivity --ignore-warnings
+winget install flux.flux --exact --silent --accept-package-agreements --accept-source-agreements --disable-interactivity --ignore-warnings
 winget install GitHub.GitHubDesktop --exact --silent --accept-package-agreements --accept-source-agreements --disable-interactivity --ignore-warnings
 winget install Google.Chrome --exact --silent --accept-package-agreements --accept-source-agreements --disable-interactivity --ignore-warnings
 winget install Logitech.OptionsPlus --exact --silent --accept-package-agreements --accept-source-agreements --disable-interactivity --ignore-warnings
@@ -14,6 +15,7 @@ winget install Notepad++.Notepad++ --exact --silent --accept-package-agreements 
 winget install PuTTY.PuTTY --exact --silent --accept-package-agreements --accept-source-agreements --disable-interactivity --ignore-warnings
 winget install Splashtop.SplashtopBusiness --exact --silent --accept-package-agreements --accept-source-agreements --disable-interactivity --ignore-warnings
 winget install ZeroTier.ZeroTierOne --exact --silent --accept-package-agreements --accept-source-agreements --disable-interactivity --ignore-warnings
+winget install flux.flux --exact --silent --accept-package-agreements --accept-source-agreements --disable-interactivity --ignore-warnings
 
 ## Alias
 New-Alias edge "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
