@@ -1,0 +1,12 @@
+## https://tdannecy.me/fix-code-55-errors-in-device-manager-for-thunderbolt-3-devices
+
+$registryPath = "HKLM:\Software\Policies\Microsoft\Windows\Kernel DMA Protection"
+$valueName = "DeviceEnumerationPolicy"
+$valueType = "DWord"
+$valueData = 2
+
+if (-not (Test-Path $registryPath)) {
+    New-Item -Path $registryPath -Force
+}
+
+Set-ItemProperty -Path $registryPath -Name $valueName -Value $valueData -Type $valueType
