@@ -1,19 +1,17 @@
 List of app to keep:
 
-Microsoft.MicrosoftOfficeHub
 Microsoft.Xbox.TCUI
 Microsoft.XboxApp
-Microsoft.XboxGameOverlay
 Microsoft.XboxGamingOverlay
 Microsoft.XboxIdentityProvider
 Microsoft.XboxSpeechToTextOverlay
+Microsoft.ZuneMusic
 
-List of apps to be removed (must have # in front):
+::List of apps to be removed (must have # in front)::
 #AppUp.IntelGraphicsExperience
 #AppUp.IntelManagementandSecurityStatus
 #AppUp.IntelOptaneMemoryandStorageManagement
 #AppUp.ThunderboltControlCenter
-#DellInc.DellCommandUpdate
 #DellInc.DellDigitalDelivery
 #DellInc.DellOptimizer
 #DellInc.DellPowerManager
@@ -23,20 +21,23 @@ List of apps to be removed (must have # in front):
 #Microsoft.BingWeather
 #Microsoft.GamingApp
 #Microsoft.GetHelp
-#Microsoft.Getstarted
 #Microsoft.MicrosoftSolitaireCollection
-#Microsoft.MixedReality.Portal
-#Microsoft.Office.OneNote
+#Microsoft.WindowsAlarms
+#Microsoft.WindowsFeedbackHub
+#Microsoft.WindowsSoundRecorder
+#Microsoft.YourPhone
+#MicrosoftWindows.Client.WebExperience
+
+::Not included as of 24H2::
+#Microsoft.Getstarted
 #Microsoft.Outlook.DesktopIntegrationServicess
 #Microsoft.People
 #Microsoft.SkypeApp
 #Microsoft.Wallet
-#Microsoft.WindowsAlarms
 #Microsoft.WindowsCommunicationsApps
-#Microsoft.WindowsFeedbackHub
 #Microsoft.WindowsMaps
-#Microsoft.WindowsSoundRecorder
-#Microsoft.YourPhone
-#MicrosoftTeams
-#Microsoft.ZuneMusic
 #Microsoft.ZuneVideo
+#MicrosoftTeams
+#microsoft.windowscommunicationsapps
+#Microsoft.MixedReality.Portal
+#Microsoft.Office.OneNote
