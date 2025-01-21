@@ -1,5 +1,4 @@
-List of app to keep:
-
+::List of app to keep::
 Microsoft.Xbox.TCUI
 Microsoft.XboxApp
 Microsoft.XboxGamingOverlay
